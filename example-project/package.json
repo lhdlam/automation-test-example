@@ -1,0 +1,9 @@
+{
+  "name": "task-manager-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web app mẫu (test target) để thử 2 quy trình AI agent automation test",
+  "scripts": {
+    "start": "npx --yes serve src -l 3000"
+  }
+}

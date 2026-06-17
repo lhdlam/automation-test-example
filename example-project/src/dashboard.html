@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager — Công việc</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <span class="brand">Task Manager</span>
+      <div class="user-box">
+        <span>Xin chào, <strong id="user-name"></strong></span>
+        <button id="logout-btn" type="button" class="btn-ghost">Đăng xuất</button>
+      </div>
+    </header>
+
+    <main class="dashboard">
+      <h1>Công việc của tôi</h1>
+
+      <form id="add-task-form" class="add-form" novalidate>
+        <div class="field">
+          <label for="task-title">Tên công việc</label>
+          <input id="task-title" name="task-title" type="text" />
+        </div>
+        <button type="submit" class="btn-primary">Thêm</button>
+      </form>
+      <p id="add-error" class="error" role="alert"></p>
+
+      <p id="task-summary" class="summary"></p>
+      <ul id="task-list" class="task-list" aria-label="Danh sách công việc"></ul>
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>
