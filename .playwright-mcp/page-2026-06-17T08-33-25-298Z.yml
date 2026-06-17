@@ -1,0 +1,13 @@
+- main [ref=e2]:
+  - heading "Đăng nhập" [level=1] [ref=e3]
+  - paragraph [ref=e4]: Task Manager Demo
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]: Email
+      - textbox "Email" [ref=e8]
+    - generic [ref=e9]:
+      - generic [ref=e10]: Mật khẩu
+      - textbox "Mật khẩu" [ref=e11]
+    - alert [ref=e12]
+    - button "Đăng nhập" [ref=e13] [cursor=pointer]
+  - paragraph [ref=e14]: "Tài khoản demo: tester@example.com / Test@1234"

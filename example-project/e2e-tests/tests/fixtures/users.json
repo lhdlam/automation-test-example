@@ -1,0 +1,16 @@
+{
+  "_note": "Chỉ THAM CHIẾU. Giá trị nhạy cảm (email/mật khẩu thật) KHÔNG đặt ở đây — đọc từ process.env theo tên biến (*Env). Xem test-data.ts để biết cách resolve.",
+  "validUser": {
+    "emailEnv": "TEST_USER_EMAIL",
+    "passwordEnv": "TEST_USER_PASSWORD",
+    "expectedName": "Nguyễn Văn Tester"
+  },
+  "invalidPassword": {
+    "emailEnv": "TEST_USER_EMAIL",
+    "password": "Sai-mat-khau-khong-dung@2026"
+  },
+  "nonexistentUser": {
+    "email": "nguoi-khong-ton-tai@example.com",
+    "password": "Bat-ky@1234"
+  }
+}

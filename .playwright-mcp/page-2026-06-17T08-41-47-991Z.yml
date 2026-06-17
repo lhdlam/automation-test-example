@@ -1,0 +1,34 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: Task Manager
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - text: Xin chào,
+        - strong [ref=e6]: Nguyễn Văn Tester
+      - button "Đăng xuất" [ref=e7] [cursor=pointer]
+  - main [ref=e8]:
+    - heading "Công việc của tôi" [level=1] [ref=e9]
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]: Tên công việc
+        - textbox "Tên công việc" [ref=e13]
+      - button "Thêm" [ref=e14] [cursor=pointer]
+    - alert [ref=e15]
+    - paragraph [ref=e16]: "Tổng: 4 công việc, 0 hoàn thành"
+    - list "Danh sách công việc" [ref=e17]:
+      - listitem [ref=e70]:
+        - 'checkbox "Đánh dấu hoàn thành: Chuẩn bị báo cáo tuần" [ref=e71] [cursor=pointer]'
+        - generic [ref=e72]: Chuẩn bị báo cáo tuần
+        - 'button "Xóa công việc: Chuẩn bị báo cáo tuần" [ref=e73] [cursor=pointer]': Xóa
+      - listitem [ref=e74]:
+        - 'checkbox "Đánh dấu hoàn thành: Gửi email cho khách hàng" [ref=e75] [cursor=pointer]'
+        - generic [ref=e76]: Gửi email cho khách hàng
+        - 'button "Xóa công việc: Gửi email cho khách hàng" [ref=e77] [cursor=pointer]': Xóa
+      - listitem [ref=e78]:
+        - 'checkbox "Đánh dấu hoàn thành: CRUD việc A" [ref=e79] [cursor=pointer]'
+        - generic [ref=e80]: CRUD việc A
+        - 'button "Xóa công việc: CRUD việc A" [ref=e81] [cursor=pointer]': Xóa
+      - listitem [ref=e82]:
+        - 'checkbox "Đánh dấu hoàn thành: CRUD việc B" [ref=e83] [cursor=pointer]'
+        - generic [ref=e84]: CRUD việc B
+        - 'button "Xóa công việc: CRUD việc B" [ref=e85] [cursor=pointer]': Xóa
